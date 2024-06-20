@@ -1,0 +1,31 @@
+<hr>
+
+<p class="titl-stl">Arabic Books</p>
+
+<div id="carouselExampleControls" class="carousel slide main_cur_stl" data-bs-ride="carousel">
+  <div class="carousel-inner sub-curl-stl">
+    <div class="carousel-item active">
+      <img class="book-img-stl" src="https://shop.ireadhub.com/cdn/shop/products/7198_1_205x.jpg?v=1661175677" alt="book1">
+      <p class="auth-stl">سر الغرفة 207</p>
+      <p class="auth-stl">BY : د/احمد خالد توفيق</p>
+      <a routerLink="/pathbook1" target="_blank" class="read-btn-stl">Read</a>
+
+    </div>
+    <div class="carousel-item" *ngFor="let i of books_ar">
+      <img class="book-img-stl" [src]="i.image" alt="book1">
+      <p class="auth-stl">{{i.name}}</p>
+      <p class="auth-stl">BY : {{i.Author}}</p>
+      <a routerLink="/pathbook1" target="_blank" class="read-btn-stl">Read</a>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<br>

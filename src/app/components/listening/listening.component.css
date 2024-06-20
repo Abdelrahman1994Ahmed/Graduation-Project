@@ -1,0 +1,58 @@
+*{
+    margin: 0 3vw;
+}
+.title-stl{
+    margin: 5vh;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    text-align: start;
+}
+.title-stl-1{
+    font-size: 25px;
+    font-style:italic;
+    color: olivedrab;
+}
+.book-img-stl{
+    margin: 2vh 3vw;
+    height: 45vh;
+    width: 17vw;
+  
+  }
+  
+.auth-stl{
+    margin: 2vh;
+    font-size: larger;
+    font-family: cursive;
+    color: black;
+    background-color: darkkhaki;
+    text-align: center;
+    height: 3vh;
+    width: 25vw;
+
+}
+.read-btn-stl{
+    text-decoration: underline;
+    border: solid 5px black;
+    color: rgb(113, 74, 74);
+    display: flex;
+    justify-content: center;
+    margin: 0 5vw;
+    padding: 0 2vw;
+    text-decoration: none;
+    font-size: larger;
+    text-align: start;
+
+}
+.annc-btn-stl{
+    border: 5px black dashed;
+    border-radius: 5px 10px 25px 30px;
+    color: rgb(93, 9, 9);
+    display: flex;
+    justify-content: center;
+    margin: 0 5vw;
+    padding: 0 2vw;
+    text-decoration: none;
+    font-size: larger;
+    text-align: start;
+}

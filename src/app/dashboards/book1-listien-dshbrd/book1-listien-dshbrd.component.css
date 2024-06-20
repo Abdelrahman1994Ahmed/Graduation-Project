@@ -1,0 +1,35 @@
+*{
+    background-color: rgb(229, 173, 173);
+}
+.read-btn-stl{
+    text-decoration: underline;
+    border: solid 5px black;
+    color: rgb(113, 74, 74);
+    display: flex;
+    justify-content: center;
+    margin: 0 5vw;
+    padding: 0 2vw;
+    text-decoration: none;
+    font-size: larger;
+    text-align: start;
+
+}
+.links_stl{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.sub_titl_stl{
+    font-size: 25px;
+    font-weight: 800;
+    font-style: italic;
+}
+.book_titl_stl{
+    font-size: 18px;
+    font-family: cursive;
+    font-weight: 600;
+}
+.sub_titl2_stl{
+    font-family: fantasy;
+    font-size: 25px;
+    color: darkblue;
+}
