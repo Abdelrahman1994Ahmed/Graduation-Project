@@ -82,5 +82,13 @@ export class EngBooksDshbrdComponent {
       image: 'https://shop.ireadhub.com/cdn/shop/products/9780141034591_205x.jpg?v=1660728617',
       url: 'file:///C:/Users/lenovo/Downloads/20000-Leagues-Under-the-Sea.pdf'
     },
+    {
+      id :22,
+      name : "Children of The Cave",
+      Author :"Virve Sammalkorpi",
+      Year : 2019,
+      image: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRcnsxvPQ_EjqTC4-i62adwRBY708QTrU_to4jmBSjpy3E0aieW',
+      url: 'file:///C:/Users/lenovo/Downloads/20000-Leagues-Under-the-Sea.pdf'
+    },
   ]
   }

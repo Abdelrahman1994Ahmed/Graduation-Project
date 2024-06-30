@@ -29,3 +29,8 @@
     object-fit: cover !important;
     object-position: 100% 60% !important;
 }
+
+.nx_ic_stl{
+    opacity: 1;
+    background-color: darkblue;
+}

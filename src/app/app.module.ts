@@ -35,6 +35,8 @@ import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
 import { ReadingComponent } from './components/reading/reading.component';
 import { ListeningComponent } from './components/listening/listening.component';
 import { Book1ListienDshbrdComponent } from './dashboards/book1-listien-dshbrd/book1-listien-dshbrd.component';
+import { ScrollToTopComponent } from './components/scroll-to-top/scroll-to-top.component';
+import { NgxScrollTopModule } from 'ngx-scrolltop';
 
 
 
@@ -53,7 +55,8 @@ import { Book1ListienDshbrdComponent } from './dashboards/book1-listien-dshbrd/b
     FooterComponent,
     ReadingComponent,
     ListeningComponent,
-    Book1ListienDshbrdComponent
+    Book1ListienDshbrdComponent,
+    ScrollToTopComponent
   ],
   imports: [
     BrowserModule,
@@ -79,7 +82,8 @@ import { Book1ListienDshbrdComponent } from './dashboards/book1-listien-dshbrd/b
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
-    NgxExtendedPdfViewerModule
+    NgxExtendedPdfViewerModule,
+    NgxScrollTopModule
   
   ],
   providers: [

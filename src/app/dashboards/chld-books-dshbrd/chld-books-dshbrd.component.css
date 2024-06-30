@@ -1,7 +1,19 @@
+.main_stl{
+  background-image: url(https://img.pikbest.com/backgrounds/20190318/children-s-day-cartoon-theme-background_1877123.jpg!sw800);
+  background-repeat: repeat;
+  background-size: 50vw 80vh;
+  background-color: #ffffff57;
+  background-blend-mode: inherit;
+}
 .titl-stl{
     display: flex;
     justify-content: center;
     text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.4;
+    color: darkolivegreen;
+
   }
   
   .list-wrapper {
@@ -96,10 +108,26 @@
   .read-btn-stl{
     text-decoration: underline;
     border: solid 5px black;
-    color: black;
+    color: rgb(113, 74, 74);
     display: flex;
     justify-content: center;
     margin: 0 5vw;
+    padding: 0 2vw;
     text-decoration: none;
     font-size: larger;
-  }
+    text-align: start;
+    /* color: #15cdee; */
+    background-color: white;
+    /* height: 67px; */
+    letter-spacing: 1px;
+    z-index: 1;
+    border-radius: 50px ;
+    /* box-shadow: inset 0 0 0 #F15B43; */
+    transition: all .8s ease-in-out;
+}
+
+.read-btn-stl:hover{
+    box-shadow: inset 300px 0 0 #e01eb3;
+    color: rgb(10, 10, 10);
+
+} 

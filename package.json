@@ -32,6 +32,7 @@
     "mdb-angular-ui-kit": "^6.1.0",
     "ngx-custom-carousel": "^1.4.1",
     "ngx-extended-pdf-viewer": "^20.5.0-alpha.2",
+    "ngx-scrolltop": "^17.0.1",
     "ngx-slick-carousel": "^17.0.0",
     "primeng": "^17.18.0",
     "pspdfkit": "^2024.3.2",

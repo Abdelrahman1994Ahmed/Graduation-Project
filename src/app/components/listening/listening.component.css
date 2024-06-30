@@ -7,9 +7,16 @@
     font-optical-sizing: auto;
     font-weight: 700;
     text-align: start;
+    justify-content: center;
+    text-align: center;
+    /* font-size: 50px; */
+    font-weight: 700;
+    line-height: 1.4;
+    color: darkolivegreen;
+
 }
 .title-stl-1{
-    font-size: 25px;
+    font-size: 50px;
     font-style:italic;
     color: olivedrab;
 }
@@ -37,20 +44,34 @@
     color: rgb(113, 74, 74);
     display: flex;
     justify-content: center;
-    margin: 0 5vw;
+    /* margin: 0 5vw; */
     padding: 0 2vw;
     text-decoration: none;
     font-size: larger;
     text-align: start;
-
+    /* color: #15cdee; */
+    background-color: white;
+    /* height: 67px; */
+    letter-spacing: 1px;
+    z-index: 1;
+    border-radius: 50px ;
+    /* box-shadow: inset 0 0 0 #F15B43; */
+    transition: all .8s ease-in-out;
 }
+
+.read-btn-stl:hover{
+    box-shadow: inset 300px 0 0 #F15B43;
+    color: rgb(225, 211, 211);
+
+} 
+
 .annc-btn-stl{
     border: 5px black dashed;
     border-radius: 5px 10px 25px 30px;
     color: rgb(93, 9, 9);
     display: flex;
     justify-content: center;
-    margin: 0 5vw;
+    /* margin: 0 5vw; */
     padding: 0 2vw;
     text-decoration: none;
     font-size: larger;

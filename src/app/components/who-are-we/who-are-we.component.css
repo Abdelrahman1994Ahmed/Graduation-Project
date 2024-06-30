@@ -10,6 +10,10 @@ body {
   background: hsl(210 30% 24%);
   text-align: center;
 }
+.title_stl{
+  background-color: #e8e1e1 ;
+}
+
 .main-stl{
     padding: 5vh 0vh 2vh 0vh;
     display: flex;
@@ -100,7 +104,7 @@ section {
 
 .logos {
   overflow: hidden;
-  padding: 60px 0;
+  padding: 40px 0;
   background: white;
   white-space: nowrap;
   position: relative;

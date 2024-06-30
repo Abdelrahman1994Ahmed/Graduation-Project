@@ -1,0 +1,10 @@
+*{
+    color: white;
+}
+.bg-stl{
+    background-color: #383878;
+}
+.log_stl :hover{
+    background-color: floralwhite;
+    border-radius: 15px;
+}

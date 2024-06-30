@@ -13,6 +13,9 @@ const routes: Routes = [
   {path:"home",component: HomePageComponent},
   {path:'pathbook1',component: ReadingComponent},
   {path: 'pathbook2',component: Book1ListienDshbrdComponent},
+  {path: 'loginpath',component: HomePageComponent},
+  {path: 'startpath',component: LoginPageComponent},
+  {path: 'regisform',component: LoginPageComponent},
 ];
 
 @NgModule({
