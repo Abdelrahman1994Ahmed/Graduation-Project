@@ -5,6 +5,8 @@ import { RegisterPageComponent } from './components/register-page/register-page.
 import { LoginPageComponent } from './components/login-page/login-page.component';
 import { ReadingComponent } from './components/reading/reading.component';
 import { Book1ListienDshbrdComponent } from './dashboards/book1-listien-dshbrd/book1-listien-dshbrd.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { ContactUsComponent } from './components/contact-us/contact-us.component';
 
 const routes: Routes = [
   {path:"homepage",component: HomePageComponent},
@@ -16,6 +18,10 @@ const routes: Routes = [
   {path: 'loginpath',component: HomePageComponent},
   {path: 'startpath',component: LoginPageComponent},
   {path: 'regisform',component: LoginPageComponent},
+  {path: 'pathcontactus',component: ContactUsComponent},
+  {path: 'pathcontact',component: ContactComponent},
+
+
 ];
 
 @NgModule({

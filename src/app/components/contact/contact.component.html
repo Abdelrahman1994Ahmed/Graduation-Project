@@ -1,0 +1,36 @@
+<form class="contact form_main_stl" method="post">
+    <mat-form-field>
+        <div class="form_stl">
+            <mat-label>Your Name</mat-label>
+        </div>
+      <input matInput [formControl]="name" required>
+      <mat-error *ngIf="name.invalid">Please enter your name</mat-error>
+    </mat-form-field>
+    <mat-form-field>
+        <div class="form_stl">
+            <mat-label>Email</mat-label>
+        </div>
+      <input matInput [formControl]="email" placeholder="email@example.com" required>
+      <mat-error *ngIf="email.invalid">Pls. enter a valid email</mat-error>
+    </mat-form-field>
+    <mat-form-field>
+        <div class="form_stl">
+            <mat-label>Book/s name</mat-label>
+        </div>
+      <textarea matInput [formControl]="message" maxlength="256" placeholder="I'm interested in..." required></textarea>
+      <mat-hint align="end"> {{message.value?.length || 0}}/256</mat-hint>
+      <mat-error *ngIf="message.invalid">Please enter a name</mat-error>
+    </mat-form-field>
+    <button [disabled]="isLoading" class="submit read-btn-stl" type="submit">Submit</button>
+    <!-- <input [formControl]="honeypot" class="hidden" type="text" />
+    <div [ngClass]="!submitted? 'hidden' : 'visible'" class="center-text">
+      <span></span>
+    </div> -->
+  </form>
+
+  <div class="main_icon_stl">
+    <p class="title-stl">You can sahre with us too what you prefer through Social-Media:</p>
+    <div class="social">
+        <a class="social_icon_stl" href="https://www.facebook.com/profile.php?id=61552166455641" target="_blank"><i class="fa-brands fa-facebook soc-icn-stl"></i></a>
+     </div>
+  </div>

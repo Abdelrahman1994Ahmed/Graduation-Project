@@ -37,6 +37,8 @@ import { ListeningComponent } from './components/listening/listening.component';
 import { Book1ListienDshbrdComponent } from './dashboards/book1-listien-dshbrd/book1-listien-dshbrd.component';
 import { ScrollToTopComponent } from './components/scroll-to-top/scroll-to-top.component';
 import { NgxScrollTopModule } from 'ngx-scrolltop';
+import { ContactComponent } from './components/contact/contact.component';
+import { ContactUsComponent } from './components/contact-us/contact-us.component';
 
 
 
@@ -56,7 +58,9 @@ import { NgxScrollTopModule } from 'ngx-scrolltop';
     ReadingComponent,
     ListeningComponent,
     Book1ListienDshbrdComponent,
-    ScrollToTopComponent
+    ScrollToTopComponent,
+    ContactComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,
